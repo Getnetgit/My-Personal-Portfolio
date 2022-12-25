@@ -21,6 +21,7 @@ h1{
 body{
     display: flex;
     flex-direction: column;
+    background-color: rgb(230, 218, 220);
 }
 
 header {
