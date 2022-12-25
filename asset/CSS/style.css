@@ -6,6 +6,7 @@
     --aqua:aqua;
     --dark:rgb(53, 52, 52);
 }
+
 *{
     margin: 0px;
     width:auto;
@@ -14,17 +15,20 @@
 }
 
 h1{
-    font-size: 200%;
+    font-size: 150%;
 }
+
 body{
     display: flex;
     flex-direction: column;
 }
+
 header {
     display:flex;
     background-color: var(--dark);
     color: aliceblue;
     width: 100%;
+    padding: 10px 0 10px 0;
     justify-content: space-between;
 }
 
@@ -36,27 +40,21 @@ padding-left: 5px;
 }
 
 li {
-    list-style: none;
-    
-    
+    list-style: none; 
 }
 
 header a{
     color:var(--aqua);
     margin-right: 25px;
     display:inline-block;
-    text-decoration-thickness:3px;
-  
-   
-    
+    text-decoration-thickness:3px; 
 }
+
 header h1 {
  padding: 5px;
  background-color:var(--aqua);
  color: var(--dark);
  border-radius: 3px;
-
-
 }
 
 nav{
@@ -80,10 +78,8 @@ figure h1{
     background-color:var(--aqua);
     padding: 5px;
     border-radius: 3px;
-    
-    
-
 }
+
 .container_AboutMe{
     display: flex;
     padding: 2%;
@@ -107,22 +103,21 @@ padding-top: 15px;
 .AboutMe_Content{
     padding: 0 30px 30px 30px;
     width:calc(80% - 60px);
-    
-    
 }
+
 .container_work{
     display: flex;
     padding:2%; 
 }
+
 .container_work h1{
     text-align: right;
     padding: 0 30px 30px 30px;
     border-style:none  solid none none;
     width:calc(20% - 63px);
-    color: var(--dark);
-    
-    
+    color: var(--dark); 
 }
+
 .WorkPictures {
     display:flex;
     flex: 1 1 200px;
@@ -133,12 +128,18 @@ padding-top: 15px;
     justify-content:space-between;
     padding: 0 30px 30px 30px;
 }
+
 .Big_Pic_Container{
     position: relative;
     width: calc(100%);
     height: 40vh;
-   
 }
+
+.Big_Pic_Container:hover{
+ transform: scale(1.05);
+ 
+}
+
 #Big_Pic {
   height: calc(100% - 18px);
   width: calc(100% - 18px);
@@ -146,8 +147,8 @@ padding-top: 15px;
   border-width: 5px;
   margin: 4px;
   border-color: var(--aqua);
-  
 }
+
 .WorkPicture_Lebel{
    position: absolute; 
    bottom: 20%;
@@ -161,6 +162,11 @@ padding-top: 15px;
     width: calc(50%);
     height: 20vh;
 }
+
+.Small-Pics_Container:hover{
+   transform: scale(1.05);
+}
+
 .Small-Pics{
     width: calc(100% - 18px);
     height: calc(100% - 18px);
@@ -173,6 +179,7 @@ padding-top: 15px;
 .container_ContactMe{
     display: flex;
     padding: 2%;
+    padding-bottom: 5%;
 }
 
 .container_ContactMe h1{
@@ -197,16 +204,13 @@ padding-top: 15px;
     text-decoration-thickness: 3px;
     text-underline-offset: 8px;
 }
-@media screen and (max-width: 992px){
-    
-}
-
 @media screen and (max-width: 768px){
    /* ul {
         flex-direction: column;
     }*/
     header{
         flex-direction: column;
+        padding: 0 0 10px 0;
     }
     header h1 {
         text-align: center;
@@ -266,13 +270,12 @@ padding-top: 15px;
     .Small-Pics_Container{
         position: relative;
         width: calc(100%);
+        
     }
 
     .Small-Pics{
-        width: calc(100%);
-        height: 20vh;
+        width: calc(100%);  
     }
-
 
     .container_ContactMe{
         display: flex;
@@ -286,11 +289,11 @@ padding-top: 15px;
         border-style:none  none solid none;
         width:calc(100%);   
     }
+
     .container_ContactMe div {
         display:flex;
         flex-direction: column;
         flex: 1 1 200px;
-    
         width:calc(100%);
         justify-content:space-between;
         align-items:flex-start;
