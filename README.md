@@ -10,7 +10,17 @@ The website will have a header which contains navigation links to different part
 N/A
 
 ## Usage
+When portfolio is loaded developer name is presented on the header along with navigation links to "About Me" , " Work" , "Contact Me" and "Resume". When each links are clicked it leads to corosponding section. A recent photo of the developer will be presented on "About me " section. Pictures of applecations are presented at "work" section. When hovering on each pictures it grows by 5% and it leads to to application in new tab when clicked(Currently it only leads to pdf link). The site is responsive to different screen size.
 
+[This demo vedio](/asset/Images/Usage_Demo_Vedio.mp4)  shows the web application's appearance and functionality:
+
+
+Portfolio picture for computer screan
+![Portfolio picture for computer screan](asset/Images/Portfolio_Computer_Display.png)
+
+Portfolio picture for mobile screan
+
+![Portfolio picture for mobile screan](asset/Images/Portfolio_For_Mobile_Display.png)
 
 
 ## Credits
